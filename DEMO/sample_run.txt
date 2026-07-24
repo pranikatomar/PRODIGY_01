@@ -1,0 +1,41 @@
+$ python3 temperature_converter.py
+================================================================
+                 TEMPERATURE CONVERSION PROGRAM                 
+              (Celsius  |  Fahrenheit  |  Kelvin)               
+================================================================
+
+Convert a temperature between Celsius, Fahrenheit and Kelvin.
+Type 'exit' at any prompt to quit the program.
+
+Enter the temperature value (or 'exit' to quit): abc
+  !! Invalid number. Please enter a numeric value (e.g. 25 or -10.5).
+
+Enter the temperature value (or 'exit' to quit): 25
+Enter the original unit (C/F/K): C
+
+----------------------------------------------------------------
+ INPUT TEMPERATURE : 25.00 C  (Celsius)
+----------------------------------------------------------------
+ CONVERTED VALUES  :
+   Celsius     :      25.00 C  <-- original input
+   Fahrenheit  :      77.00 F
+   Kelvin      :     298.15 K
+----------------------------------------------------------------
+
+Convert another temperature? (y/n): y
+Enter the temperature value (or 'exit' to quit): 98.6
+Enter the original unit (C/F/K): F
+
+----------------------------------------------------------------
+ INPUT TEMPERATURE : 98.60 F  (Fahrenheit)
+----------------------------------------------------------------
+ CONVERTED VALUES  :
+   Celsius     :      37.00 C
+   Fahrenheit  :      98.60 F  <-- original input
+   Kelvin      :     310.15 K
+----------------------------------------------------------------
+
+Convert another temperature? (y/n): n
+
+Thank you for using the Temperature Conversion Program. Goodbye!
+
