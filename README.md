@@ -22,7 +22,6 @@ A clean, well-documented command-line Python program that converts a temperature
 - [Project Structure](#-project-structure)
 - [How It Works](#-how-it-works)
 - [Possible Improvements](#-possible-improvements)
-- [Author](#-author)
 - [License](#-license)
 
 ---
